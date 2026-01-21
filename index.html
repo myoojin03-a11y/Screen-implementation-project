@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="title">출석 관리 프로그램</h1>
+
+    <div class="filter_tab">
+      <ul class="tab_list">
+        <li class="tab_item active">전체</li>
+        <li class="tab_item">출석</li>
+        <li class="tab_item">지각</li>
+        <li class="tab_item">결석</li>
+      </ul>
+    </div>
+
+    <div class="filter_count">
+      총<span class="count">0</span>명
+    </div>
+    
+    <div class="card_list">
+      <div class="card">
+        <div class="label">
+          <div class="attendance_label"></div>
+        </div>
+        <div class="text_wrap">
+          <p class="card_title"></p>
+          <ul class="info_wrap">
+            <li class="info_item">
+              <span class="info_label"></span>
+              <span class="info_value"></span>
+            </li>
+            <li class="info_item">
+              <span class="info_label"></span>
+              <span class="info_value"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="server-data.js"></script>
+</body>
+
+</html>
